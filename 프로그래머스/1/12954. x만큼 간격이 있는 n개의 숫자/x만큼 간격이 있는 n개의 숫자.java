@@ -1,4 +1,3 @@
-import java.util.*;
 class Solution {
     public long[] solution(int x, int n) {
         long[] answer = new long[n];
@@ -7,6 +6,6 @@ class Solution {
             answer[i] = number;
             number += x;
         }
-      return answer;  
-        }
+        return answer;
+    }
 }
